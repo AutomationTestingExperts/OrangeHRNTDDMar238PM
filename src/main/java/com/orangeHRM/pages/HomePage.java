@@ -27,6 +27,7 @@ public class HomePage {
 			Report.passTest(driver, "Succesfully logged in!!!!!!!!!!!");
 		}else {
 			Report.failTest(driver, "Login failed!!!!!!!!!!!");
+			System.out.println("Small change");
 		}
 	}
 	
